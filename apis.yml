@@ -1,7 +1,24 @@
 aid: neoteris
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/neoteris.png
 name: Neoteris
-description: Neoteris is a company surfaced as a portfolio company of battery-ventures and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: 'Neoteris was a Sunnyvale, California networking-security company backed by Battery Ventures
+  and New Enterprise Associates, best known for its SSL VPN / Instant Virtual Extranet (IVE) appliances.
+  It was acquired by NetScreen Technologies in 2003, and subsequently rolled into Juniper Networks when
+  Juniper acquired NetScreen in 2004. The company no longer operates as an independent entity: the
+  neoteris.com domain is registered but parked with no live host (nameserver records only, no A/AAAA/MX),
+  and there is no developer portal, documentation, or public API surface to enrich. This profile is
+  retained as a historical portfolio-lead record; enrichment found no live API to catalog.'
 url: https://raw.githubusercontent.com/api-evangelist/neoteris/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +28,24 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
+x-status: defunct
+x-status-reason: acquired-by-netscreen-2003-no-live-surface
 tags:
 - Company
+- Security
+- SSL VPN
+- Networking
+- Enterprise
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
